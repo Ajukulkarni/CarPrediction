@@ -5,7 +5,6 @@ Flask==1.1.2
 idna==2.10
 itsdangerous==1.1.0
 Jinja2==2.11.3
-joblib @ file:///tmp/build/80754af9/joblib_1613502643832/work
 jsonify==0.5
 MarkupSafe==1.1.1
 mkl-fft==1.2.1
@@ -14,10 +13,7 @@ mkl-service==2.3.0
 numpy==1.20.1
 requests==2.25.1
 scikit-learn==0.24.1
-scipy @ file:///C:/ci/scipy_1614023124510/work
-six @ file:///C:/ci/six_1605205426665/work
 sklearn==0.0
-threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl
 urllib3==1.26.3
 Werkzeug==1.0.1
 wincertstore==0.2
