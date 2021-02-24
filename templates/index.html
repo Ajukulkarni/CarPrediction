@@ -7,9 +7,12 @@
     <title>Document</title>
 </head>
 
-<body>
-
+<body >
+<br><br><h2>{{ prediction_text }}</h2>
     <div style="color:blue">
+    
+    
+    
         <form action="{{ url_for('predict')}}" method="post">
             <h2>Predictive analysis</h2>
             <h3>Year</h3>
@@ -40,7 +43,7 @@
 
 
 
-        <br><br><h3>{{ prediction_text }}<h3>
+        
     </div>
 
 
@@ -48,7 +51,7 @@
 
     <style>
         body {
-            background-color: lightslategray;
+             background-color: LightSeaGreen;
             text-align: center;
             padding: 0px;
         }
@@ -115,7 +118,7 @@
         }
         
         #sub {
-            width: 120px;
+            
             height: 43px;
             text-align: center;
             border-radius: 14px;
